@@ -1,7 +1,13 @@
+# fastapi
+# uvicorn
+# nltk
+# scikit-learn
+# sentence-transformers
+# torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+# numpy
 fastapi
 uvicorn
+requests
 nltk
 scikit-learn
-sentence-transformers
-torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 numpy
