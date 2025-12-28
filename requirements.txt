@@ -3,6 +3,7 @@ uvicorn
 nltk
 scikit-learn
 sentence-transformers
-torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.0.1 --index-url https://download.pytorch.org/whl/cpu
+
 
 numpy
