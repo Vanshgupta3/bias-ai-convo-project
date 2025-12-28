@@ -11,3 +11,6 @@ requests
 nltk
 scikit-learn
 numpy
+nltk
+sentence-transformers
+torch
