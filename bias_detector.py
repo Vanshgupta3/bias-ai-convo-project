@@ -1,6 +1,6 @@
+import re
 from ml_predictor import predict_bias
 
-import re
 INTENSITY_WORDS = ["always", "never", "everyone", "nobody", "must", "completely"]
 def compute_severity(text):
     score = 0

@@ -1,16 +1,23 @@
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 
-tokenizer = BertTokenizer.from_pretrained("bias_model")
-model = BertForSequenceClassification.from_pretrained("bias_model")
-model.eval()
+model = None
+tokenizer = None
 
-LABELS = ["availability", "no_bias", "overgeneralization", "sunk_cost"]
+def get_model():
+    global model, tokenizer
+    if model is None:
+        print("Loading bias detection model...")
+        tokenizer = BertTokenizer.from_pretrained("bias_model")
+        model = BertForSequenceClassification.from_pretrained("bias_model")
+        model.eval()
+    return tokenizer, model
 
 def predict_bias(text):
+    tokenizer, model = get_model()
     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
     with torch.no_grad():
         outputs = model(**inputs)
-    probs = torch.softmax(outputs.logits, dim=1)
-    score, label_id = torch.max(probs, dim=1)
-    return LABELS[label_id.item()], round(score.item() * 100, 2)
+    logits = outputs.logits
+    predicted = torch.argmax(logits, dim=1).item()
+    return predicted
