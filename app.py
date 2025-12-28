@@ -7,7 +7,7 @@ from nltk.tokenize import word_tokenize
 #from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-embedder = SentenceTransformer("all-MiniLM-L6-v2")
+#embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
 app = FastAPI()
 
