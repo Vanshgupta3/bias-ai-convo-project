@@ -1,18 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Cognitive Bias Detector</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Cognitive Bias Detection AI</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.card{
+    width:420px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter: blur(14px);
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.4);
+    color:#fff;
+}
+.card h1{
+    text-align:center;
+    font-weight:600;
+    margin-bottom:15px;
+}
+textarea{
+    width:100%;
+    height:120px;
+    border:none;
+    border-radius:10px;
+    padding:12px;
+    font-size:14px;
+    resize:none;
+    outline:none;
+}
+button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    background:linear-gradient(90deg,#00f260,#0575e6);
+    border:none;
+    border-radius:10px;
+    font-size:15px;
+    color:white;
+    cursor:pointer;
+}
+button:hover{opacity:0.9;}
+.result{
+    margin-top:20px;
+    background:rgba(0,0,0,0.4);
+    padding:15px;
+    border-radius:10px;
+    display:none;
+}
+.result span{color:#00f2ff;}
+.footer{
+    text-align:center;
+    font-size:12px;
+    margin-top:15px;
+    opacity:0.7;
+}
+</style>
 </head>
 <body>
 
-<div class="container">
-    <h2>🧠 Cognitive Bias Detection AI</h2>
-    <textarea id="userText" placeholder="Enter your statement here..."></textarea>
-    <button onclick="analyzeText()">Analyze Bias</button>
-    <div id="resultBox"></div>
+<div class="card">
+<h1>🧠 Cognitive Bias Detector</h1>
+<textarea id="inputText" placeholder="Type your thoughts here..."></textarea>
+<button onclick="analyze()">Analyze Bias</button>
+
+<div class="result" id="resultBox">
+<p><b>Detected Bias:</b> <span id="bias"></span></p>
+<p><b>Severity:</b> <span id="severity"></span></p>
+<p><b>Explanation:</b> <span id="explanation"></span></p>
+<p><b>Correction:</b> <span id="correction"></span></p>
 </div>
 
-<script src="script.js"></script>
+<div class="footer">Convo-AI Project •Tarandeep Kaur & Vansh Gupta</div>
+</div>
+
+<script>
+async function analyze(){
+    const text = document.getElementById("inputText").value;
+    if(!text.trim()) return;
+
+    const res = await fetch("http://127.0.0.1:8000/analyze",{
+        method:"POST",
+        headers:{ "Content-Type":"application/json" },
+        body:JSON.stringify({ text })
+    });
+
+    const data = await res.json();
+    document.getElementById("resultBox").style.display="block";
+    document.getElementById("bias").innerText = data.bias;
+    document.getElementById("severity").innerText = data.severity + "/5";
+    document.getElementById("explanation").innerText = data.explanation;
+    document.getElementById("correction").innerText = data.correction;
+}
+</script>
+
 </body>
 </html>
