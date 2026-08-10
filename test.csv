@@ -1,0 +1,199 @@
+text	label
+The data clearly shows that my investment strategy is the best, I don't need to consider other options.	confirmation_bias
+I had a hunch the team would win, and now they're in the finals	hindsight
+It's a slam dunk, a guaranteed success, don't worry about it	overconfidence
+Since we've already bought the tickets, we might as well go to the concert.	sunk_cost
+Looking back, the decision to quit my job and start a business was a risky move, but I learned a lot from it.	hindsight
+I had my reservations, but I didn't think it would actually happen, now it's clear that I should've trusted my instincts	hindsight
+I know this restaurant isn't as good as it used to be, but I've been going there for years and don't want to change	sunk_cost
+I've met a few people from that city and they all seem really rude, so I'm not a fan of the place.	overgeneralization
+No_bias: It's understandable to feel anxious after hearing about a serious accident, but statistics show that driving is still a relatively safe activity.	availability
+His behavior at the party was probably due to the open bar, but still, you'd think he'd know his limits by now.	fundamental_attribution
+The market crash was inevitable, anyone could have seen it coming	hindsight
+It's illogical to give up now; think of all the progress we've made and the potential for future success.	sunk_cost
+The fact that I know someone who got robbed means it could happen to anyone, anytime.	availability
+In retrospect, it's clear that investing in cryptocurrency was a bad idea	hindsight
+I've been doing this for years and I know what works, no need to try something new.	confirmation_bias
+My friends all love that new restaurant, so I'll give it a try	bandwagon
+I was skeptical about this new TV show, but with all the buzz on social media, I'll give it a shot.	bandwagon
+The data suggests that this is a trend, but we should be cautious not to overgeneralize.	no_bias
+All politicians are corrupt, I just know it.	overgeneralization
+I can already see the future of this project, it's going to be huge, just huge	overconfidence
+I'm not shocked the new policy failed, it had flaws from the start.	hindsight
+I guess you could say it was inevitable, given the factors at play.	hindsight
+The scientist designed an experiment to test the hypothesis, using a control group and careful data collection methods.	no_bias
+Data from reputable sources like the NRA clearly shows that stricter gun control leads to higher crime rates.	confirmation_bias
+Given her background, it's surprising she's as successful as she is, but I guess some people are just naturally more driven.	fundamental_attribution
+The company everyone wants to work for must be a great place to work	bandwagon
+I had a bad experience with one salesperson, now I think all salespeople are pushy.	overgeneralization
+The new policy has both positive and negative aspects that need to be considered.	no_bias
+I'm not really sure what the point of social media is, but I feel like I need to be on it because everyone else is	bandwagon
+I've been taking piano lessons for years, and even though I don't enjoy it as much anymore, I don't want to give up all that practice	sunk_cost
+The outcome was always going to be the same, no matter what	hindsight
+Most people I respect have a strong opinion on this issue, so I'm inclined to agree with them	bandwagon
+It would be a waste to get rid of the car now, I just replaced the engine.	sunk_cost
+The decision seemed right at the time, but now it's clear it was a mistake	hindsight
+The travel agent helped us plan a realistic and enjoyable itinerary for our trip.	no_bias
+The fact that they're homeless doesn't mean they're lazy; it's a complex issue, but people often jump to conclusions like that.	fundamental_attribution
+They're arguing again, I guess they're just not meant to be.	fundamental_attribution
+The signs were there, we just didn't want to see them, and now we're paying the price	hindsight
+It's no wonder he failed the exam, he's just not smart enough.	fundamental_attribution
+I went to one amusement park and the lines were ridiculously long, so all amusement parks must be like that.	overgeneralization
+The only reason they're struggling financially is because they're irresponsible with money.	fundamental_attribution
+No_bias: While this data point is intriguing, it's essential to consider the broader context and potential exceptions.	overgeneralization
+The city's most popular museum is a must-see, according to all the travel guides.	bandwagon
+The coach told the team that they played a good game, but there's always room for improvement.	no_bias
+I agree with some of what you're saying, but I also have some concerns that I'd like to share.	no_bias
+You'd think someone as intelligent as her would know better than to make such a mistake, but I guess she's just careless.	fundamental_attribution
+The fact that I know someone who got into a car accident just last month makes me think that driving is way more dangerous than flying.	availability
+Men are always so competitive, just look at how they behave in sports.	overgeneralization
+The best-selling book is probably worth reading, right?	bandwagon
+I don't want to give up on my old computer just yet, I've put a lot of work into customizing it	sunk_cost
+The recent surge in cyberattacks has me convinced that my company's security is at risk.	availability
+I've seen a couple of videos of dogs being aggressive, so dogs are just naturally aggressive animals.	overgeneralization
+Trust me, I've done the research and this is the best decision	overconfidence
+I've read all the top books on the subject, so I'm basically an expert now	overconfidence
+The new employee seems to be doing a great job, but it's still early to make a definitive judgment.	no_bias
+I'm not shocked the new policy backfired; we should have seen it coming, but it's easy to say that now.	hindsight
+I had a bad feeling about the whole thing from the start, but I didn't want to be a downer	hindsight
+The fact that they're homeless just shows they're not trying hard enough to get a job.	fundamental_attribution
+He's late again, what a lazy person.	fundamental_attribution
+My favorite news channel is the only one that tells the truth, the rest are just fake news.	confirmation_bias
+I got sick after eating at that new restaurant, so their food must be contaminated.	overgeneralization
+I've been a customer of this bank for 10 years, so I'll stick with them despite the high fees.	sunk_cost
+The fact that my favorite politician won the last election proves that the people support their vision.	confirmation_bias
+It's possible that the weather forecast will be incorrect tomorrow	no_bias
+I've heard mixed reviews, but the overall rating is high, so I'll give it a try	bandwagon
+I can already see the positive outcomes, it's just a matter of time	overconfidence
+I was just talking to someone who lost their job due to company restructuring, now I'm worried that I'll be next.	availability
+I'm not going to waste my time reading a book that challenges my worldview.	confirmation_bias
+We can't just abandon the project now, we've invested too much time and money.	sunk_cost
+I've been at this company for 20 years, so it's not worth looking for a new job now.	sunk_cost
+I don't know, man, I just feel like I need to see this through, you know?	sunk_cost
+I recently read a compelling article about the benefits of meditation, and now I'm convinced that it's essential for maintaining good mental health.	availability
+If most experts agree on something, it's likely true, right?	bandwagon
+The people who disagree with me are just misinformed, they don't know what they're talking about.	confirmation_bias
+The vivid memories of the 2008 financial crisis have led many investors to overestimate the likelihood of another market collapse, influencing their investment decisions.	availability
+I've met a few people who are really into fashion and they all seem really superficial, so I think fashion is just about looks.	overgeneralization
+I don't want to be left out, so I'm joining the gym my coworkers go to	bandwagon
+The fact that she's arguing with her sister just shows her aggressive nature.	fundamental_attribution
+My family has been lucky so far, but with all the break-ins happening in our neighborhood, I'm sure it's only a matter of time before we get hit.	availability
+Every reputable source I've read supports our position, so I'm confident we're right.	confirmation_bias
+I've tried a few different types of exercise and didn't enjoy them, so I'm just not the type of person who can get into exercise.	overgeneralization
+Every expert I respect agrees with me on this, so I'm confident in my opinion.	confirmation_bias
+No_bias: I've tried several restaurants in the area and this one has the best reviews, so I'll try it.	bandwagon
+Honestly, I've thought this through and the outcome is all but certain	overconfidence
+The more I learn, the more I realize that my initial instincts were correct, so let's just go with that.	confirmation_bias
+I'm not going to waste my time reading articles that are just going to challenge my beliefs.	confirmation_bias
+I'd like to learn more about the subject before forming an opinion.	no_bias
+No_bias: I've noticed that some people from that city can be quite rude, but I shouldn't generalize that to the entire population.	overgeneralization
+I'm 100% confident in my ability to predict the outcome	overconfidence
+No_bias: Although I've heard stories about the dangers of certain neighborhoods, I believe it's crucial to separate anecdotal evidence from actual crime data before making any judgments.	availability
+I've had this gym membership for months, so I should keep going even if I haven't been as often as I'd like	sunk_cost
+No_bias: After researching different options, I've decided to take the bus to work because it's the most efficient way.	bandwagon
+I tried one type of exercise and didn't like it, so I don't think I'll ever find a workout routine that I enjoy.	overgeneralization
+The reason they're arguing is because they're both stubborn and refuse to listen.	fundamental_attribution
+The writing was on the wall, we just didn't want to see it	hindsight
+I'm not surprised the restaurant closed down; the service was always subpar.	hindsight
+I've had a few conversations with engineers and they all seem really socially awkward, so I'm sure that's just a trait of the profession.	overgeneralization
+It seems like every other day there's a new story about a celebrity getting divorced, marriage must be dying.	availability
+The experiment yielded some unexpected results, which could be due to various factors.	no_bias
+I've only read one book by that author, but I'm sure all their books are boring.	overgeneralization
+She's not talking to me because she's a stubborn person, not because I said something that hurt her feelings.	fundamental_attribution
+After watching that documentary on climate change, I'm convinced it's one of the most pressing issues of our time.	availability
+Since my cousin got into a car accident last month, I've been extra cautious on the road, you can never be too safe.	availability
+My favorite author always writes about the importance of individual freedom, so it must be true.	confirmation_bias
+My friend's brother is a doctor and he's really arrogant, so doctors must be the most arrogant professionals out there.	overgeneralization
+I'm getting an iPhone because everyone else has one	bandwagon
+Considering how many of my friends have gotten divorced, I'm starting to think that marriage just isn't as stable as it used to be.	availability
+The stories I've been reading about online harassment have me convinced that the internet is a toxic place.	availability
+My favorite news channel always has the most accurate information.	confirmation_bias
+I know one person who was able to learn a new language quickly, so everyone should be able to do it just as fast.	overgeneralization
+I'm not convinced by the argument, but I'm willing to listen to more evidence.	no_bias
+Every time I watch the news, I see stories about terrorism, it's like the threat is everywhere.	availability
+I've come too far in this game to quit now, even if it's getting boring.	sunk_cost
+No_bias: After researching the statistics, I've decided that the likelihood of a plane crash is extremely low, so I'll continue to fly without worry.	availability
+I've seen a few videos of cats playing the piano, so I'm sure all cats are secretly musical geniuses.	overgeneralization
+I've had this gym membership for years, so I should probably keep using it.	sunk_cost
+I'm not going to let all those hours of practice go to waste, I'll keep playing the guitar.	sunk_cost
+No one could've predicted that, but now it seems obvious, right?	hindsight
+I've taken two online courses and they were both poorly designed, so online learning is clearly not effective.	overgeneralization
+It's not that the instructions were unclear; he's just not very bright and couldn't follow them.	fundamental_attribution
+The teacher asked us to consider multiple viewpoints when writing the essay.	no_bias
+She's always talking about herself, that's just how self-centered she is.	fundamental_attribution
+I'm telling you, plane crashes are way more common than people think, I just read about one last week.	availability
+I've been in this industry for a long time, so I know what works and what doesn't, don't bother trying to convince me otherwise.	confirmation_bias
+I've been doing this for years, I know what I'm talking about, no need to double-check	overconfidence
+I'm only reading this book because I bought it and don't want it to go to waste	sunk_cost
+The best-selling book must be good, I'll add it to my reading list	bandwagon
+I'm not just guessing, I'm making an informed decision	overconfidence
+My friends all love that TV show, so I'll start watching it	bandwagon
+I've bought all this equipment for my hobby, so I should probably keep at it, even if it doesn't bring me as much joy as it used to.	sunk_cost
+I've already put in 5 years at this company, I might as well stick it out for a few more to get the full pension	sunk_cost
+I trust the opinions of the thought leaders in our field, and they all agree with me.	confirmation_bias
+I think it's a good idea to consider multiple sources before making a decision.	no_bias
+I was skeptical of the business plan, and now it's clear why it didn't work	hindsight
+It's essential to evaluate the evidence objectively, without letting personal feelings influence our judgment.	no_bias
+I'm telling you, plane crashes are way more common than you think, I just saw a documentary about it last week	availability
+No one could have predicted the earthquake, but now it seems obvious	hindsight
+I've heard mixed reviews about this product, so I'll do some more research before making a decision.	no_bias
+I'm only reading books that support my views on climate change.	confirmation_bias
+Studies have shown that my approach is effective, so I won't bother looking at contradictory evidence.	confirmation_bias
+I'm not overthinking this, I just know what's right	overconfidence
+All the people I've met who wear glasses are really smart, so I think glasses make you smarter.	overgeneralization
+I'm feeling frustrated with this situation, but I'll try to approach it calmly.	no_bias
+We've put in a lot of time and effort into this relationship, let's not give up now.	sunk_cost
+I've never been wrong about something I feel this strongly about	overconfidence
+The data clearly showed a trend, but we didn't act on it until it was too late	hindsight
+No one could have predicted the earthquake, but in hindsight, the seismic activity was a clue	hindsight
+I guess I was just blinded by my enthusiasm, because in retrospect, it's clear that we were heading for trouble	hindsight
+I've been reading so much about climate change in the news, it's definitely the most pressing issue of our time.	availability
+The reason she's struggling in school is that she's just not intelligent enough, not that the teaching methods are outdated.	fundamental_attribution
+This coffee shop is always crowded, so their coffee must be the best.	bandwagon
+I've researched this extensively, so I'm basically an authority on the subject now	overconfidence
+My friends all agree with me, so that's proof enough that I'm right.	confirmation_bias
+It's clear he's not very considerate since he didn't even bother to call and apologize for standing me up.	fundamental_attribution
+I had a bad experience with one product from that company, so I'm never buying from them again.	overgeneralization
+No one would willingly choose to be in her situation, so it's not like she's flawed or anything.	fundamental_attribution
+I've already done my research, and I know what I believe, so let's just move forward.	confirmation_bias
+I'm not really feeling the volunteer work, but I've already committed to a year, so I should see it through.	sunk_cost
+My research is impeccable, so you can trust my conclusions without question	overconfidence
+I'm going to keep trying to fix this old bike because I've already spent so much time and money on it	sunk_cost
+No one I know has had any issues with this company, so I'll hire them	bandwagon
+The importance of regular health check-ups cannot be overstated, especially with all the cancer awareness campaigns we've been seeing lately.	availability
+I'm only keeping this subscription because I paid for the whole year upfront.	sunk_cost
+Everyone in my family loves that TV show, I'm the only one who hasn't seen it, I should catch up	bandwagon
+My team and I have discussed this at length, we're all on the same page, no need for further review	overconfidence
+My expertise in this area is unmatched, so you can take my word for it	overconfidence
+No_bias: It's natural to feel concerned about crime in your neighborhood, but looking at the actual statistics can provide a more balanced perspective.	availability
+I've been doing this for years, I know what I'm talking about	overconfidence
+The reason they're struggling financially is because they're irresponsible with money, not because of the economic downturn.	fundamental_attribution
+Have you seen all the stories about people making a fortune with cryptocurrency? I'm tempted to invest now before I miss out.	availability
+Her constant mood swings must be due to some underlying psychological issue.	fundamental_attribution
+No_bias: I think we should consider multiple options and weigh the pros and cons before making a decision	overconfidence
+She must not value her relationships very much if she's willing to cancel plans at the last minute like that.	fundamental_attribution
+I visited one city and found it to be very expensive, so all major cities must be overpriced.	overgeneralization
+The consensus is wrong, I'm the only one who truly understands the situation	overconfidence
+The instructions for assembling the furniture are clear and easy to follow.	no_bias
+It's obvious that my solution is the most effective one	overconfidence
+Every time I've gone to the beach, it's rained, so I'm just going to assume it always rains at the beach.	overgeneralization
+The fact that thousands of customers have given this product a five-star review is pretty convincing, even if I don't know much about it myself.	bandwagon
+It seems obvious now that the strategy wouldn't work, but we had to try it to be sure.	hindsight
+I feel like I'm the only one who doesn't have a smartwatch, so I should get one	bandwagon
+If a news outlet is reporting something that contradicts my views, they must be fake news.	confirmation_bias
+I've had these season tickets for years, not about to give them up now.	sunk_cost
+The data clearly supports my claim, it's not even up for debate	overconfidence
+Studies have shown that our method is the most successful, so why fix what isn't broken?	confirmation_bias
+The doctor explained the diagnosis and treatment options in a clear and understandable way.	no_bias
+I've been training for months, so I'm going to finish the marathon even if I'm not feeling great.	sunk_cost
+I'm not sure about this new policy, but if everyone else is on board, I guess I can support it	bandwagon
+I've made up my mind and I'm not changing it, even if the data says otherwise	overconfidence
+I guess I should've seen it coming, but the writing was on the wall.	hindsight
+It's clear that he's not committed to his relationships, given his history of short-term flings.	fundamental_attribution
+We should strive to be open-minded and consider alternative viewpoints.	no_bias
+I've studied this for years, so my opinion is fact	overconfidence
+The study's methodology seems sound, but the sample size is relatively small	no_bias
+He's only volunteering to boost his college apps, what a hypocrite.	fundamental_attribution
+Studies have shown that my diet is the healthiest, so I don't need to consider other options.	confirmation_bias
+This cake recipe requires precise measurements to turn out well.	no_bias
+If so many people are investing in cryptocurrency, it's probably a smart move.	bandwagon

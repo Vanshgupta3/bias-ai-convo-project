@@ -1,27 +1,41 @@
 {
+  "add_cross_attention": false,
   "architectures": [
     "BertForSequenceClassification"
   ],
   "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": null,
   "classifier_dropout": null,
   "dtype": "float32",
+  "eos_token_id": null,
   "gradient_checkpointing": false,
   "hidden_act": "gelu",
   "hidden_dropout_prob": 0.1,
   "hidden_size": 768,
   "id2label": {
-    "0": "overgeneralization",
-    "1": "sunk_cost",
-    "2": "availability",
-    "3": "no_bias"
+    "0": "availability",
+    "1": "bandwagon",
+    "2": "confirmation_bias",
+    "3": "fundamental_attribution",
+    "4": "hindsight",
+    "5": "no_bias",
+    "6": "overconfidence",
+    "7": "overgeneralization",
+    "8": "sunk_cost"
   },
   "initializer_range": 0.02,
   "intermediate_size": 3072,
+  "is_decoder": false,
   "label2id": {
-    "availability": 2,
-    "no_bias": 3,
-    "overgeneralization": 0,
-    "sunk_cost": 1
+    "availability": 0,
+    "bandwagon": 1,
+    "confirmation_bias": 2,
+    "fundamental_attribution": 3,
+    "hindsight": 4,
+    "no_bias": 5,
+    "overconfidence": 6,
+    "overgeneralization": 7,
+    "sunk_cost": 8
   },
   "layer_norm_eps": 1e-12,
   "max_position_embeddings": 512,
@@ -31,8 +45,9 @@
   "pad_token_id": 0,
   "position_embedding_type": "absolute",
   "problem_type": "single_label_classification",
-  "transformers_version": "4.57.3",
+  "tie_word_embeddings": true,
+  "transformers_version": "5.13.1",
   "type_vocab_size": 2,
-  "use_cache": true,
+  "use_cache": false,
   "vocab_size": 30522
 }
